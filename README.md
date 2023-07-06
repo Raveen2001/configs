@@ -14,8 +14,11 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 sudo git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 sudo git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 ```
-copy the .zshrc file now
+copy the ``` .zshrc ``` ``` .p10k.zsh ``` file now
+restart the terminal or type ``` zsh ```
 
+
+    
 ## tmux
 ```sh
 sudo apt install tmux
