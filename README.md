@@ -16,3 +16,16 @@ sudo git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CU
 ```
 copy the .zshrc file now
 
+## tmux
+```sh
+sudo apt install tmux
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+```
+copy the .tmux.conf file
+
+```sh
+tmux new -s session
+```
+press ``` crtl + space ``` then ``` I ``` to install the plugins
+press ``` crtl + space crtl + s ``` to save the session
+press ``` crtl + space crtl + r ``` ro restore the session
