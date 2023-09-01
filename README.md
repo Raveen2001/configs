@@ -7,6 +7,7 @@ sudo apt update && sudo apt upgrade
 ## Oh My Zsh
 
 ```sh
+sudo apt install curl
 sudo apt install zsh
 sudo chsh -s $(which zsh)
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
@@ -35,3 +36,11 @@ tmux new -s session
 press ``` crtl + space ``` then ``` I ``` to install the plugins
 press ``` crtl + space crtl + s ``` to save the session
 press ``` crtl + space crtl + r ``` ro restore the session
+
+
+## NVM
+```sh
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
+```
+
+
