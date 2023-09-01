@@ -27,7 +27,7 @@ restart the terminal or type ``` zsh ```
 sudo apt install tmux
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ```
-copy the .tmux.conf file
+copy the ```.tmux.conf``` file
 
 ```sh
 tmux new -s session
