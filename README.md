@@ -39,14 +39,18 @@ Install the fonts from https://github.com/romkatv/powerlevel10k#fonts
 
 copy the 
 ```sh 
-wget -O ~/.zshrc https://raw.githubusercontent.com/Raveen2001/configs/main/.zshrc ```
+wget -O ~/.zshrc https://raw.githubusercontent.com/Raveen2001/configs/main/.zshrc
+```
 
 ```sh
 wget -O ~/.p10k.zsh https://raw.githubusercontent.com/Raveen2001/configs/main/.zshrc
-``` file now
-restart the terminal or type ``` zsh ```
+```
 
 
+restart the terminal or type
+```sh 
+zsh
+```
 
     
 ## tmux
